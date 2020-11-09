@@ -174,7 +174,7 @@
         background-image: url(../image/DSC_0646\ 1.png);
         position: fixed;
         width: 218px;
-        height: 382px;
+        height: 332px;
         left: calc(67% - 350px/2 - 1px);
         bottom: -54px;
         background-size: 100%;
@@ -187,6 +187,9 @@
     .leaf2 img {
   
         top: 530px;
+    }
+    .title_product {
+        font-size: 28px;
     }
 }
 @media(max-width:320px) {
@@ -208,9 +211,10 @@
         margin-top: 100px;
     }
     .product {
-        margin: 98px -10px;
+        margin: 98px 0px;
     }
     .container {
         padding: 5px 5px;
     }
+
 }
