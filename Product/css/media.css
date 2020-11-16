@@ -1,0 +1,124 @@
+@media(max-width:1300px){
+    .main-row {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:1175px){
+    .row-justify {
+        justify-content: space-between;
+    }
+}
+
+/* @media (min-width: 992px){
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+} */
+@media (min-width: 375px){
+    .col-xs-1 {
+        flex: 0 0 8.3334%;
+        max-width: 8.3334%;
+    }
+    .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
+@media (min-width: 768px){
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+}
+
+@media (min-width: 375px){
+    .col-xs-10 {
+        flex: 0 0 83.3334%;
+        max-width: 83.3334%;
+    }
+    
+}
+
+@media (min-width: 1175px){
+    .col-md-4 {
+        flex: 0 0 33.3334%;
+        max-width: 33.3334%;
+    }
+    .col-md-2 {
+        flex: 0 0 16.6667%;
+        max-width: 16.6667%;
+    }
+   
+}
+
+@media (min-width: 1175px){
+    .col-xl-2 {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+}
+
+
+  
+@media(max-width:768px) {
+    .header__inner a{
+        display: none;
+    }
+    .nav-mobile-menu {
+        display: block;
+    }
+    .header__logo {
+       left: 0;
+        text-align: center;
+        position: relative;
+        
+    } 
+    a.seed {
+        display: none;
+    }
+    a.verm {
+        display: none;
+    }
+    a.jam {
+        display: none;
+    }
+    a.other_goods {
+        display: none;
+    } 
+}
+   
+
+@media (max-width: 768px){
+    .nav-mobile-menu {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 488px){
+    .title__box :before {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background-color: #DBDBDB;
+        left: 0;
+        top: 25px;
+    }
+    .title__box :after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        background-color: #DBDBDB;
+        right: 0;
+        top: 25px;
+    }
+    
+}
+
+

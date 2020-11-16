@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'SF Pro Display', sans-serif;
+    font-style:normal;   
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+
+}
+.item a {
+    width: 100%;
+}
+ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    max-height: 162px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.container{
+    position: relative;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__top a {
+    color: #333333;
+    font-size: 14px;
+    line-height: 16,71px;
+    font-weight: 700;
+}
+
+.header__language{
+    z-index: 10;
+}
+
+.header__language a {
+    color: #333333;
+    margin: 0px 10px 8px 0px;
+}
+
+.header__language a:hover {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #000000;
+}
+.header__nav a:hover {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #000000;
+}
+.header__logo{
+    left: 125px;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+  
+}
+
+
+.title {
+    color:white;
+    padding-top: 15px;
+}
+
+.header__nav {
+    z-index: 10;
+}
+
+.header__nav a{
+    margin: 0px 0px 0px 30px;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+
+[class*="col-"] {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.main__page {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main__page h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 47,87px;
+    margin: 0;
+}
+
+.main__page h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 23,87px;
+    margin: 12px;
+}
+
+.title__box {
+    position: relative;
+    max-width: 439px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title__box :before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color:#DBDBDB;
+    left: 0;
+    top: 25px;
+}
+.title__box :after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color:#DBDBDB;
+    right: 0;
+    top: 25px;
+}
+
+
+
+.product a {
+    display: table;
+    font-size: 22px;
+    line-height: 26px;
+    color: black;
+    margin: 12px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+
+.product a:hover {
+    border-bottom: 2px solid #F2650F;;
+}
+
+.seedling a {
+    border-bottom: 2px solid #F2650F;
+}
+
+.seedling, .vermiculture, .jam, .other_goods,  li {
+    display: inline-flex;
+}
+.other_goods li {
+    display: -webkit-inline-box;
+}
+
+.item img{
+  width: 100%;
+}
+
+.item {
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+}
+
+article, .col- {
+    padding-bottom:30px;
+}
+
+.name-product {
+    text-align: center;
+    font-weight: 700;
+}
+
+.price-product {
+    text-align: center;
+}
+
+.red {
+    color:  red;
+}
+
+.footer {
+    height: 50px;
+    background-color: #FCFCFC;
+  
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bydevelop {
+    font-size: 16px;
+    margin: 16px 0px 17px 30px;
+}
+
+.bydevelop span {
+    color: #F2650F;
+    font-weight: 600;
+}
+
+.social {
+    margin: 11px 30px 11px 0;   
+    display: flex;
+    
+}
+
+.social div {
+    padding: 0px 8px 0px 8px;
+}
+
+.social rect:hover {
+    fill: #333333;
+    cursor: pointer;
+}
+.nav-mobile-menu {
+    display: none;
+}

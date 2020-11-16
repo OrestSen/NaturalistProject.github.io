@@ -1,0 +1,303 @@
+@media(max-width:1280px) {
+    .header__content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .leaf3 img {
+        position: absolute;
+        width: 68.29px;
+        height: 79.67px;
+        left: calc(-2% - 66px/2 + 324px);
+        top: 657px;
+    }
+    .leaf4 img {
+        position: absolute;
+        width: 61px;
+        height: 47px;
+        left: 206px;
+        top: 190px;
+    }
+    .leaf5 img {
+        position: absolute;
+        width: 61px;
+        height: 47px;
+        right: 200px;
+        top: 600px;
+    }
+    .product {
+        margin-top: 130px;
+    }
+    .product__content {
+        margin-top: 130px;
+    }
+}
+
+@media(max-width:1024px) {
+    .header__logo img {
+        display: none;
+    }
+    .header__logo {
+       
+        text-align: center;
+        position: relative;
+        background-image: url(../image//VectorA.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .title {
+        padding-top: 50px;
+        font-size: 15px;
+    }
+    .product__content {
+        margin-top: 122px;
+    }
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 508px;
+        height: 744px;
+        left: calc(50% - 518px/2 - 1px);
+        bottom: -42px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .leaf3 img {
+        position: absolute;
+        width: 68.29px;
+        height: 79.67px;
+        left: calc(-6% - 550px/2 + 324px);
+        top: 457px;
+    }
+    .leaf5 img {
+        position: absolute;
+        width: 61px;
+        height: 47px;
+        right: 10px;
+        top: 500px;
+    }
+    .leaf6 img {
+        position: absolute;
+        width: 111.96px;
+        height: 89.57px;
+        right: 93.11px;
+        top: 120px;
+    }   
+    .product__content_inner {
+        margin: 8px 0px 25px 0px;
+    }
+   .product {
+        margin: 130px 0px;
+   }
+   .title_product {
+       width: 100%;
+   }
+    a.seed {
+        display: none;
+    }
+    a.verm {
+        display: none;
+    }
+    a.jam {
+        display: none;
+    }
+    a.other_goods {
+        display: none;
+    }  
+}
+
+@media(max-width:768px) {
+    .header__inner a{
+        display: none;
+    }
+    .header__inner {
+        background-image: url(../image/Union.png);
+        background-repeat: no-repeat;
+    }
+    .nav-mobile-menu {
+        display: block;
+    }
+    .header__logo {
+        left: -13px;
+       
+        text-align: center;
+        position: relative;
+        background-image: url(../image//VectorA.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .title_product {
+        font-size: 30px;
+    }
+}
+   
+@media(max-width:700px) {
+    .product {
+        margin: 130px -10px;
+    }    
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 308px;
+        height: 544px;
+        left: calc(64% - 504px/2 - 1px);
+        bottom: -54px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .title_product {
+        width: 50%;
+    }
+    .leaf1 img {
+        position: absolute;
+        width: 102.1px;
+        height: 67.61px;
+        left: -4px;
+        top: 700px;
+    }
+    .leaf2 img {
+        position: absolute;
+        width: 81px;
+        height: 70px;
+        right: 54px;
+        top: 730px;
+        transform: rotate(67.93deg);
+    }
+    .leaf3 img {
+        position: absolute;
+        width: 45.29px;
+        height: 50.67px;
+        left: calc(-6% - 550px/2 + 324px);
+        top: 457px;
+    }
+    .leaf4 img {
+        position: absolute;
+        width: 38px;
+        height: 27px;
+        left: 206px;
+        top: 90px;
+    }
+    .leaf5 img {
+        position: absolute;
+        width: 43px;
+        height: 31px;
+        right: 10px;
+        top: 380px;
+    }
+    .leaf6 img {
+        position: absolute;
+        width: 68.96px;
+        height: 65.57px;
+        right: 93.11px;
+        top: 120px;
+    } 
+}
+
+@media(max-width:700px){
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 308px;
+        height: 482px;
+        left: calc(67% - 504px/2 - 1px);
+        bottom: -54px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width:600px) {
+    .header__logo {
+        left: -15px;
+    }
+}
+
+@media(max-width:500px) {
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 308px;
+        height: 482px;
+        left: calc(67% - 472px/2 - 1px);
+        bottom: -54px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .leaf2 img {
+        position: absolute;
+        width: 81px;
+        height: 70px;
+        right: 1px;
+        top: 730px;
+        transform: rotate(67.93deg);
+    }
+}
+
+@media(max-width:500px) {
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 308px;
+        height: 482px;
+        left: calc(67% - 450px/2 - 1px);
+        bottom: -54px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width:414px) {
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 218px;
+        height: 382px;
+        left: calc(67% - 350px/2 - 1px);
+        bottom: -54px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .leaf1 img {
+       
+        top: 600px;
+    }
+    .leaf2 img {
+  
+        top: 530px;
+    }
+}
+@media(max-width:320px) {
+    .tree {
+        background-image: url(../image/Hazelnut_tree.png);
+        position: fixed;
+        width: 180px;
+        height: 292px;
+        left: calc(67% - 287px/2 - 1px);
+        bottom: -54px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header__content {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .product__content {
+        margin-top: 100px;
+    }
+    .product {
+        margin: 98px 0px;
+    }
+    .leaf6 img {
+        position: absolute;
+        width: 68.96px;
+        height: 65.57px;
+        right: 93.11px;
+        top: 210px;
+    }
+    .leaf4 img {
+        left: 256px;
+        top: 440px;
+    }
+    .container {
+        padding: 5px 5px;
+    }
+}
