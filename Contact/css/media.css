@@ -1,0 +1,69 @@
+@media(max-width:1360px) {
+    .company-product {
+        flex-direction: column-reverse;
+        
+    }
+    .company-garden {
+        flex-direction: column;
+    }
+    .company-name {
+        flex-direction: column-reverse;
+    }
+    .product_description {
+        padding: 30px 0px 0px 0px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .product_description p {
+        max-width: 600px;
+    }
+}
+@media(max-width:960px) {
+    .main-container {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    .product__inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media(max-width:768px) {
+    .header__inner a{
+        display: none;
+    }
+    .nav-mobile-menu {
+        display: block;
+    }
+    .header__logo {
+        left: -17px;
+        text-align: center;
+        position: relative;
+    }
+    .container {
+        position: relative;
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 30px 5px;
+    }
+    .main__page {
+        text-align: center;
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+    .title__main :before {
+        left: 0px;
+        width: 60px;
+    }
+    .title__main :after {
+        right: 0px;
+        width: 60px;
+    }
+    .title_content h3 {
+       
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
