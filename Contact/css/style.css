@@ -5,7 +5,7 @@
 body {
     font-family:'SF Pro Display', sans-serif;
     font-style:normal;   
-    margin: 0;
+    height: 100vh;
 }
 
 a {
@@ -68,6 +68,11 @@ ul, li {
     border-bottom: 2px solid #000000;
 }
 
+.header__nav a:nth-last-child(1){
+    padding-bottom: 6px;
+    border-bottom: 2px solid #F2650F;
+}
+
 .header__logo{
     left: 125px;
     z-index: 1;
@@ -99,6 +104,7 @@ ul, li {
     padding-right: auto;
 }
 .btn__send button:hover {
+    transition: all .3s;
     background-color: #F2650F;
     border: 1px solid #F2650F;
     color: white;
@@ -110,14 +116,80 @@ ul, li {
     fill: #ffffff;
 }
 
+.btn__send {
+    margin: 30px 0px 60px;
+}
+
 .btn__send button span {
     margin: 10px;
 }
 
+.main__contacts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.number {
+    margin-right: 90px;
+}
+
+.number p {
+    line-height: 28px;
+    font-weight: 700;
+    
+}
+.number a {
+    color: #F2650F;
+    font-weight: 700;
+    font-style: 22px;
+}
+.email {
+    margin-left: 90px;
+}
+
+.email p {
+    line-height: 28px;
+    font-weight: 700;
+
+}
+.email a {
+    color: #F2650F;
+    font-weight: 700;
+}
+.vline {
+    border-left: 1px solid #bdbddb;
+    Height:73px;
+}
+.hline {
+    border-top: 1px solid #bdbddb;
+    width: 70px;
+    text-align: center;
+    display: none;
+}
+
+.adress {
+    border-top: 1px solid #bdbddb;
+    max-width: 730px;
+    text-align: center;
+    margin: 30px auto 0;
+}
+.adress p {
+    margin: 0 auto;
+    max-width: 550px;
+    line-height: 2;
+}
+.adress h3 {
+    margin-top: 40px;
+}
+
+.map {
+    padding-top: 40px;
+    width: 100%;
+}
 .footer {
     height: 50px;
     background-color: #FCFCFC;
-  
+  position: fixed;
     left: 0;
     right: 0;
     bottom: 0;

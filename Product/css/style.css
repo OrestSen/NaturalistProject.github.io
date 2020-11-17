@@ -38,7 +38,9 @@ ul, li {
     display: flex;
     justify-content: space-between;
 }
-
+.seedling, .vermiculture, .jam {
+    padding-bottom: 20px;
+}
 .header__top a {
     color: #333333;
     font-size: 14px;
@@ -62,6 +64,10 @@ ul, li {
 .header__nav a:hover {
     padding-bottom: 6px;
     border-bottom: 2px solid #000000;
+}
+.header__nav a:first-child {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #F2650F;
 }
 .header__logo{
     left: 125px;
